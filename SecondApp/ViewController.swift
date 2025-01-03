@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         print(resultLabel.isUserInteractionEnabled)
         resultLabel.isUserInteractionEnabled = true
-        
+        print("a")
         posterImageView.image = UIImage(named: "a")
         if let url = URL(string: "https://biz.chosun.com/resizer/v2/SJVUZLGAEBDNUNQQNMYYHOH6II.jpg?auth=2b374743caae0627acf5d7e7301ce3283cf7ee59d27715a545a17dc61e2bfe90&width=530&height=625&smart=true"){
             posterImageView.kf.setImage(with: url)
